@@ -117,25 +117,31 @@
 
 ---
 
-## 🟨 LeetCode Stats
+## 🔥 LeetCode — Daily Problem Solving
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/user0498vT?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/user0498vT/)
+<a href="https://leetcode.com/u/user0498vT/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-user0498vT-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Profile"/>
+</a>
 
 </div>
 
----
-
-## 📊 GitHub Stats
+<br/>
 
 <div align="center">
 
-![Harsh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=harshgupta257&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+<a href="https://leetcode.com/u/user0498vT/">
+  <img src="https://leetcard.jacoblin.cool/user0498vT?theme=dark&font=Nunito&border=0&radius=12&ext=heatmap" alt="LeetCode Stats Card" />
+</a>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshgupta257&layout=compact&theme=tokyonight&hide_border=true)
+</div>
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=harshgupta257&theme=tokyonight&hide_border=true)
+<br/>
+
+<div align="center">
+
+> 💡 Actively solving problems daily — consistency over perfection!
 
 </div>
 
