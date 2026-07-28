@@ -117,6 +117,16 @@
 
 ---
 
+## 🟨 LeetCode Stats
+
+<div align="center">
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/user0498vT?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/user0498vT/)
+
+</div>
+
+---
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -125,7 +135,7 @@
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=harshgupta257&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=harshgupta257&theme=tokyonight&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com/?user=harshgupta257&theme=tokyonight&hide_border=true)
 
 </div>
 
