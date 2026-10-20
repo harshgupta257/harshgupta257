@@ -1,6 +1,7 @@
-# Redraws the contribution mountain range once a day and publishes the SVGs to the
-# `output` branch, which the README loads. Only public contribution data is read.
-name: Contribution range
+# Redraws the LeetCode mountain range once a day and publishes the SVGs to the `output`
+# branch, which the README loads. Only public LeetCode profile data is read. If LeetCode
+# can't be reached, the run fails and the previous drawing stays in place.
+name: LeetCode range
 
 on:
   schedule:
@@ -10,13 +11,13 @@ on:
     branches: [main]
     paths:
       - scripts/mountains.py
-      - .github/workflows/contribution-range.yml
+      - .github/workflows/leetcode-range.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: contribution-range
+  group: leetcode-range
   cancel-in-progress: true
 
 jobs:
@@ -30,9 +31,7 @@ jobs:
           python-version: "3.12"
 
       - name: Draw the range
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/mountains.py --login "${{ github.repository_owner }}" --out dist
+        run: python scripts/mountains.py --leetcode user0498vT --out dist
 
       - name: Publish to the output branch
         env:
@@ -43,5 +42,5 @@ jobs:
           git add .
           git -c user.name="github-actions[bot]" \
               -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-              commit -q -m "Redraw contribution range"
+              commit -q -m "Redraw LeetCode range"
           git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" output
