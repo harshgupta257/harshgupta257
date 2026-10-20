@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="t d">
+  <title id="t">Harsh Gupta</title>
+  <desc id="d">Software developer, data and ML engineer. An illustrated mountain trail marks milestones from B.Tech at AKGEC in 2023 to shipping InterviewIQ in 2026, with graduation in 2027 as the summit.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050b18"/><stop offset=".55" stop-color="#0e1c33"/><stop offset="1" stop-color="#22385a"/>
+    </linearGradient>
+    <linearGradient id="aur" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0"/><stop offset=".35" stop-color="#34d399"/>
+      <stop offset=".7" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="moonGlow"><stop offset="0" stop-color="#f3efe0" stop-opacity=".35"/><stop offset="1" stop-color="#f3efe0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sunGlow"><stop offset="0" stop-color="#fff1c9" stop-opacity=".95"/><stop offset="1" stop-color="#ffd59e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22385a" stop-opacity="0"/><stop offset="1" stop-color="#22385a" stop-opacity=".55"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="type"><rect class="typing" x="64" y="168" width="0" height="34"/></clipPath>
+    <style>
+      .lbl{paint-order:stroke;stroke:#0a1220;stroke-width:4px;stroke-linejoin:round}
+      .tw0{animation:tw 3s ease-in-out infinite}.tw1{animation:tw 4.2s ease-in-out .8s infinite}.tw2{animation:tw 5s ease-in-out 1.6s infinite}
+      @keyframes tw{50%{opacity:.15}}
+      .aurora{animation:aur 14s ease-in-out infinite alternate}
+      @keyframes aur{from{transform:translateX(-40px) skewX(-4deg)}to{transform:translateX(40px) skewX(4deg)}}
+      .shoot{opacity:0;animation:shoot 9s linear 2s infinite}
+      @keyframes shoot{0%{opacity:0;transform:translate(0,0)}2%{opacity:1}6%{opacity:0;transform:translate(160px,53px)}100%{opacity:0}}
+      .cloud{animation:drift 60s linear infinite}.c1{animation-duration:80s;animation-delay:-30s}.c2{animation-duration:70s;animation-delay:-50s}
+      @keyframes drift{from{transform:translateX(-260px)}to{transform:translateX(260px)}}
+      .bird{animation:fly 16s linear infinite}.b1{animation-delay:-.6s}.b2{animation-delay:-1.2s}
+      @keyframes fly{from{transform:translate(-120px,20px)}50%{transform:translate(60px,-6px)}to{transform:translate(240px,14px)}}
+      .trail{stroke-dasharray:2 7;animation:march 1.4s linear infinite}
+      @keyframes march{to{stroke-dashoffset:-18}}
+      .typing{animation:typing 3.4s steps(36) .5s forwards}
+      @keyframes typing{to{width:600px}}
+      .caret{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+      .flag{transform-origin:900px 92px;animation:wave 1.6s ease-in-out infinite alternate}
+      @keyframes wave{from{transform:skewY(-6deg) scaleX(.92)}to{transform:skewY(5deg) scaleX(1)}}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.typing{width:600px}}
+    </style>
+  </defs>
+
+  <rect width="1280" height="460" fill="url(#sky)"/>
+  
+  <g fill="#ffffff" opacity=".85"><circle cx="663" cy="242" r="0.9" class="tw0"/><circle cx="808" cy="166" r="0.7"/><circle cx="148" cy="210" r="0.7" class="tw2"/><circle cx="748" cy="149" r="0.7"/><circle cx="1039" cy="54" r="0.7" class="tw1"/><circle cx="176" cy="111" r="1.4"/><circle cx="143" cy="61" r="0.7" class="tw0"/><circle cx="1128" cy="108" r="0.7"/><circle cx="1158" cy="31" r="0.9" class="tw2"/><circle cx="1193" cy="242" r="0.7"/><circle cx="1181" cy="149" r="1.4" class="tw1"/><circle cx="101" cy="249" r="0.9"/><circle cx="95" cy="142" r="0.9" class="tw0"/><circle cx="593" cy="107" r="0.9"/><circle cx="1107" cy="30" r="1.1" class="tw2"/><circle cx="1147" cy="208" r="0.9"/><circle cx="211" cy="148" r="0.9" class="tw1"/><circle cx="762" cy="24" r="0.7"/><circle cx="1155" cy="15" r="0.9" class="tw0"/><circle cx="1016" cy="174" r="1.4"/><circle cx="643" cy="119" r="1.4" class="tw2"/><circle cx="740" cy="76" r="0.9"/><circle cx="368" cy="178" r="0.9" class="tw1"/><circle cx="167" cy="147" r="1.1"/><circle cx="1075" cy="126" r="1.1" class="tw0"/><circle cx="919" cy="73" r="0.7"/><circle cx="241" cy="131" r="1.4" class="tw2"/><circle cx="337" cy="193" r="1.1"/><circle cx="311" cy="238" r="1.4" class="tw1"/><circle cx="863" cy="10" r="0.7"/><circle cx="1142" cy="146" r="1.1" class="tw0"/><circle cx="696" cy="177" r="1.1"/><circle cx="1217" cy="127" r="1.4" class="tw2"/><circle cx="140" cy="215" r="0.7"/><circle cx="552" cy="121" r="0.7" class="tw1"/><circle cx="124" cy="187" r="1.1"/><circle cx="1183" cy="174" r="1.4" class="tw0"/><circle cx="582" cy="183" r="1.4"/><circle cx="710" cy="5" r="1.4" class="tw2"/><circle cx="727" cy="43" r="0.7"/><circle cx="1011" cy="15" r="0.9" class="tw1"/><circle cx="588" cy="33" r="0.9"/><circle cx="814" cy="100" r="1.4" class="tw0"/><circle cx="165" cy="42" r="1.4"/><circle cx="822" cy="140" r="1.1" class="tw2"/><circle cx="280" cy="209" r="1.4"/><circle cx="1126" cy="71" r="1.4" class="tw1"/><circle cx="734" cy="174" r="1.4"/><circle cx="472" cy="38" r="0.7" class="tw0"/><circle cx="360" cy="38" r="0.9"/><circle cx="477" cy="3" r="1.4" class="tw2"/><circle cx="1206" cy="46" r="1.1"/><circle cx="577" cy="1" r="0.9" class="tw1"/><circle cx="858" cy="136" r="1.1"/><circle cx="1248" cy="144" r="1.1" class="tw0"/><circle cx="257" cy="176" r="0.7"/><circle cx="935" cy="230" r="1.4" class="tw2"/><circle cx="815" cy="102" r="1.4"/><circle cx="212" cy="123" r="1.4" class="tw1"/><circle cx="127" cy="48" r="0.7"/><circle cx="427" cy="112" r="0.9" class="tw0"/><circle cx="225" cy="87" r="0.7"/><circle cx="209" cy="0" r="0.9" class="tw2"/><circle cx="1098" cy="25" r="1.1"/><circle cx="1256" cy="6" r="0.7" class="tw1"/><circle cx="425" cy="157" r="1.4"/><circle cx="304" cy="162" r="1.1" class="tw0"/><circle cx="711" cy="154" r="1.1"/><circle cx="971" cy="31" r="0.7" class="tw2"/><circle cx="999" cy="250" r="1.4"/></g>
+  <g class="aurora" opacity=".38" filter="url(#blur8)">
+    <path d="M520 40 C640 120 760 10 900 70 S1120 30 1280 90 V150 C1120 90 1000 150 880 120 S640 170 520 110Z" fill="url(#aur)"/>
+  </g>
+  <mask id="moonMask"><rect width="1280" height="460" fill="#fff"/><circle cx="1226" cy="62" r="30" fill="#000"/></mask>
+  <circle cx="1214" cy="70" r="70" fill="url(#moonGlow)"/><circle cx="1214" cy="70" r="32" fill="#f3efe0" mask="url(#moonMask)"/>
+  <path class="shoot" d="M300 60 l90 30" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+  <g class="cloud c0" opacity="0.45"><ellipse cx="380" cy="150" rx="90" ry="25.200000000000003" fill="#2c4061"/><ellipse cx="411.5" cy="137.4" rx="49.50000000000001" ry="21.599999999999998" fill="#2c4061"/></g><g class="cloud c1" opacity="0.35"><ellipse cx="760" cy="96" rx="70" ry="19.6" fill="#2c4061"/><ellipse cx="784.5" cy="86.2" rx="38.5" ry="16.8" fill="#2c4061"/></g><g class="cloud c2" opacity="0.4"><ellipse cx="1180" cy="170" rx="110" ry="30.800000000000004" fill="#2c4061"/><ellipse cx="1218.5" cy="154.6" rx="60.50000000000001" ry="26.4" fill="#2c4061"/></g>
+  <path d="M0 300 L80 268 L170 290 L260 246 L360 276 L450 238 L560 270 L650 212 L740 252 L820 196 L900 236 L1000 176 L1090 222 L1180 186 L1280 232 V460 H0Z" fill="#1f3150"/>
+  <rect y="220" width="1280" height="140" fill="url(#mist)"/>
+  <path d="M0 352 L110 318 L220 346 L320 302 L420 334 L520 296 L600 322 L690 284 L1030 250 L1110 214 L1200 262 L1280 246 V460 H0Z" fill="#18273f"/>
+  <path d="M0 460 V436 L150 432 L340 405 L480 356 L630 305 L770 226 L900 118 L960 170 L1010 200 L1062 184 L1140 250 L1280 300 V460Z" fill="#101b2d"/>
+  <path d="M846 163 L900 118 L944 156 L926 150 L912 164 L896 150 L878 166 L862 158Z" fill="#dfe9f6" opacity=".92"/>
+  <path d="M1092 226 L1110 214 L1130 238 L1118 234 L1108 242 L1100 234Z" fill="#dfe9f6" opacity=".6"/>
+  <path d="M0 460 V448 L120 444 L260 452 L420 446 L600 454 L800 448 L1000 452 L1280 440 V460Z" fill="#0a1220"/>
+  <path d="M1000 430 L1010.92 444.3 L1006.006 444.3 L1012.012 456 L987.988 456 L993.994 444.3 L989.08 444.3Z" fill="#0a1220"/><path d="M1028 423 L1041.86 441.15 L1035.623 441.15 L1043.246 456 L1012.754 456 L1020.377 441.15 L1014.14 441.15Z" fill="#0a1220"/><path d="M1060 416 L1076.8 438.0 L1069.24 438.0 L1078.48 456 L1041.52 456 L1050.76 438.0 L1043.2 438.0Z" fill="#0a1220"/><path d="M1090 427 L1102.18 442.95 L1096.699 442.95 L1103.398 456 L1076.602 456 L1083.301 442.95 L1077.82 442.95Z" fill="#0a1220"/><path d="M1126 420 L1141.12 439.8 L1134.316 439.8 L1142.632 456 L1109.368 456 L1117.684 439.8 L1110.88 439.8Z" fill="#0a1220"/><path d="M1158 413 L1176.06 436.65 L1167.933 436.65 L1177.866 456 L1138.134 456 L1148.067 436.65 L1139.94 436.65Z" fill="#0a1220"/><path d="M1196 424 L1209.44 441.6 L1203.392 441.6 L1210.784 456 L1181.216 456 L1188.608 441.6 L1182.56 441.6Z" fill="#0a1220"/><path d="M1230 417 L1246.38 438.45 L1239.009 438.45 L1248.018 456 L1211.982 456 L1220.991 438.45 L1213.62 438.45Z" fill="#0a1220"/><path d="M1262 428 L1273.76 443.4 L1268.468 443.4 L1274.936 456 L1249.064 456 L1255.532 443.4 L1250.24 443.4Z" fill="#0a1220"/>
+  <path d="M14 430 L24.92 444.3 L20.006 444.3 L26.012 456 L1.9879999999999995 456 L7.994 444.3 L3.08 444.3Z" fill="#0a1220"/><path d="M44 423 L57.86 441.15 L51.623 441.15 L59.246 456 L28.753999999999998 456 L36.377 441.15 L30.14 441.15Z" fill="#0a1220"/><path d="M70 416 L86.8 438.0 L79.24000000000001 438.0 L88.48 456 L51.519999999999996 456 L60.76 438.0 L53.2 438.0Z" fill="#0a1220"/>
+
+  <!-- trail + climber -->
+  <path d="M40 430 L150 426 L340 399 L480 350 L630 299 L770 220 L900 112" fill="none" stroke="#fbbf77" stroke-width="2.2" stroke-linecap="round" class="trail" opacity=".95"/>
+  <g><path d="M142 428 L150 414 L158 428Z" fill="#fbbf77"/><path d="M150 414 V428" stroke="#0a1220" stroke-width="1.2"/><line x1="150" y1="412" x2="38" y2="386" stroke="#9fb3c8" stroke-width=".8" stroke-dasharray="2 3"/><text x="32" y="380" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2023</text><text x="32" y="395" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">BASE CAMP · B.Tech CSE @ AKGEC</text></g><g><path d="M332 401 L340 387 L348 401Z" fill="#fbbf77"/><path d="M340 387 V401" stroke="#0a1220" stroke-width="1.2"/><line x1="340" y1="385" x2="306" y2="361" stroke="#9fb3c8" stroke-width=".8" stroke-dasharray="2 3"/><text x="300" y="355" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2024</text><text x="300" y="370" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">CAMP I · Head of HR, Apna IPU Wallah</text></g><g><path d="M472 352 L480 338 L488 352Z" fill="#fbbf77"/><path d="M480 338 V352" stroke="#0a1220" stroke-width="1.2"/><line x1="480" y1="336" x2="336" y2="316" stroke="#9fb3c8" stroke-width=".8" stroke-dasharray="2 3"/><text x="330" y="310" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2024</text><text x="330" y="325" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">CAMP II · GSSoC '24 · Buildspace S5</text></g><g><path d="M622 301 L630 287 L638 301Z" fill="#fbbf77"/><path d="M630 287 V301" stroke="#0a1220" stroke-width="1.2"/><line x1="630" y1="285" x2="386" y2="269" stroke="#9fb3c8" stroke-width=".8" stroke-dasharray="2 3"/><text x="380" y="263" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2026</text><text x="380" y="278" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">CAMP III · Data Analytics Intern</text></g><g><path d="M762 222 L770 208 L778 222Z" fill="#fbbf77"/><path d="M770 208 V222" stroke="#0a1220" stroke-width="1.2"/><line x1="770" y1="206" x2="506" y2="202" stroke="#9fb3c8" stroke-width=".8" stroke-dasharray="2 3"/><text x="500" y="196" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2026</text><text x="500" y="211" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">CAMP IV · Shipped InterviewIQ</text></g>
+  <g>
+    <circle r="9" fill="#fbbf77" opacity=".35" class="pulse"/>
+    <circle r="4.2" fill="#fbbf77" stroke="#0a1220" stroke-width="1.5"/>
+    <animateMotion dur="16s" repeatCount="indefinite" path="M40 430 L150 426 L340 399 L480 350 L630 299 L770 220 L900 112" keyPoints="0;1;1" keyTimes="0;.85;1" calcMode="linear"/>
+  </g>
+
+  <!-- summit -->
+  <line x1="900" y1="118" x2="900" y2="78" stroke="#eef3fa" stroke-width="2"/>
+  <path class="flag" d="M901 79 L934 86 L901 94Z" fill="#fbbf77"/>
+  <text x="944" y="78" class="lbl" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="11" font-weight="700" fill="#7dd3fc">2027 · SUMMIT</text>
+  <text x="944" y="93" class="lbl" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#eef3fa">Graduate, then the next peak</text>
+
+  <!-- name block -->
+  <text x="62" y="70" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="13" letter-spacing="3" fill="#7dd3fc" font-weight="700">~/expedition · 28.67°N 77.45°E · GHAZIABAD, IN</text>
+  <text x="60" y="140" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="66" font-weight="800" letter-spacing="-1.5" fill="#eef3fa">Harsh Gupta</text>
+  <g clip-path="url(#type)">
+    <text x="64" y="192" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="19" fill="#9fb3c8">$ git commit -m "one more step up"</text>
+  </g>
+  <rect class="caret" x="456" y="176" width="10" height="20" fill="#7dd3fc" opacity=".9"/>
+  <text x="64" y="226" font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="600" fill="#eef3fa" opacity=".85">Software Developer · Data &amp; ML Engineer · NLP</text>
+</svg>

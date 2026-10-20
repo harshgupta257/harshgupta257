@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="170" viewBox="0 0 1280 170" role="img" aria-label="Keep climbing">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22385a" stop-opacity="0"/><stop offset="1" stop-color="#22385a" stop-opacity=".6"/></linearGradient>
+    <style>
+      .walk{animation:walk 22s linear infinite}@keyframes walk{from{transform:translateX(-40px)}to{transform:translateX(1320px)}}
+      .bob{animation:bob .5s ease-in-out infinite alternate}@keyframes bob{to{transform:translateY(-2px)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+  <rect width="1280" height="170" fill="url(#f)"/>
+  <path d="M0 170 V110 L90 80 L170 104 L260 60 L340 96 L430 70 L520 108 L600 84 L700 116 L780 74 L860 100 L960 56 L1040 96 L1120 76 L1200 104 L1280 82 V170Z" fill="#18273f" opacity=".75"/>
+  <path d="M0 170 V138 L140 120 L300 134 L460 118 L640 136 L820 122 L1000 136 L1160 120 L1280 130 V170Z" fill="#101b2d"/>
+  <path d="M60 142 L70.92 156.3 L66.006 156.3 L72.012 168 L47.988 168 L53.994 156.3 L49.08 156.3Z" fill="#0a1220"/><path d="M92 135 L105.86 153.15 L99.623 153.15 L107.246 168 L76.754 168 L84.377 153.15 L78.14 153.15Z" fill="#0a1220"/><path d="M120 128 L136.8 150.0 L129.24 150.0 L138.48000000000002 168 L101.52 168 L110.75999999999999 150.0 L103.2 150.0Z" fill="#0a1220"/><path d="M1150 139 L1162.18 154.95 L1156.699 154.95 L1163.398 168 L1136.602 168 L1143.301 154.95 L1137.82 154.95Z" fill="#0a1220"/><path d="M1180 132 L1195.12 151.8 L1188.316 151.8 L1196.632 168 L1163.368 168 L1171.684 151.8 L1164.88 151.8Z" fill="#0a1220"/><path d="M1214 125 L1232.06 148.65 L1223.933 148.65 L1233.866 168 L1194.134 168 L1204.067 148.65 L1195.94 148.65Z" fill="#0a1220"/><path d="M1246 136 L1259.44 153.6 L1253.392 153.6 L1260.784 168 L1231.216 168 L1238.608 153.6 L1232.56 153.6Z" fill="#0a1220"/>
+  <g class="walk"><g class="bob"><circle cx="0" cy="118" r="4" fill="#fbbf77"/><path d="M0 122 V134 M0 134 l-4 7 M0 134 l4 7 M0 126 l5 4" stroke="#fbbf77" stroke-width="2" stroke-linecap="round"/></g></g>
+  <text x="640" y="40" text-anchor="middle" font-family="'JetBrains Mono','Cascadia Code','Fira Code',Consolas,monospace" font-size="14" letter-spacing="6" fill="#7dd3fc" font-weight="700">KEEP CLIMBING ↑</text>
+</svg>
