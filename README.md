@@ -12,6 +12,7 @@
 I'm a CS student who likes turning AI ideas into products people can actually use.
 
 - 🏔️ &nbsp;Currently climbing: **[InterviewIQ](https://github.com/harshgupta257/InterviewIq)**, an AI interview coach
+- 🚩 &nbsp;Just shipped: **[Grievance Lens](https://grievance-lens.onrender.com)**, analytics on India's public grievance data + a complaint assistant
 - 🧠 &nbsp;Exploring NLP, ML pipelines and LLM apps
 - 🧗 &nbsp;One LeetCode problem a day, every day
 - 🤝 &nbsp;Open to internships and collaborations
@@ -25,12 +26,20 @@ I'm a CS student who likes turning AI ideas into products people can actually us
   </picture>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Render-1b2a44?style=flat-square&logo=render&logoColor=7dd3fc" alt="Render">
+  <img src="https://img.shields.io/badge/Gemini_API-1b2a44?style=flat-square&logo=googlegemini&logoColor=fbbf77" alt="Gemini API">
+  <img src="https://img.shields.io/badge/pandas-1b2a44?style=flat-square&logo=pandas&logoColor=7dd3fc" alt="pandas">
+  <img src="https://img.shields.io/badge/NumPy-1b2a44?style=flat-square&logo=numpy&logoColor=fbbf77" alt="NumPy">
+  <img src="https://img.shields.io/badge/SciPy-1b2a44?style=flat-square&logo=scipy&logoColor=7dd3fc" alt="SciPy">
+</p>
+
 <br>
 
 <p align="center">
   <a href="https://github.com/harshgupta257/InterviewIq"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-interviewiq-night.svg"><img src="assets/card-interviewiq-day.svg" alt="InterviewIQ" width="32%"></picture></a>
-  <a href="https://harshgupta257.github.io/smart-resume-analyzer/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-resume-analyzer-night.svg"><img src="assets/card-resume-analyzer-day.svg" alt="Smart Resume Analyzer" width="32%"></picture></a>
   <a href="https://creator-iq-gules.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-creatoriq-night.svg"><img src="assets/card-creatoriq-day.svg" alt="CreatorIQ" width="32%"></picture></a>
+  <a href="https://grievance-lens.onrender.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-grievancelens-night.svg"><img src="assets/card-grievancelens-day.svg" alt="Grievance Lens" width="32%"></picture></a>
 </p>
 
 <br>
